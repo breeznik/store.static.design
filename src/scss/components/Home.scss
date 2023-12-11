@@ -1,0 +1,508 @@
+::-webkit-scrollbar {
+  display: none;
+}
+//top-stories
+.col-cat {
+  min-width: 125px !important;
+  height: auto;
+  margin-right: 36px;
+  scroll-behavior: smooth;
+  .cat-image-wrapper {
+    max-width: 90px;
+    max-height: 90px;
+    margin-bottom: 12px;
+    background: linear-gradient(225deg, #8a3bee 0%, #f200b7 39%, #fe9402 91.67%);
+    padding: 1px;
+    img {
+      width: 86px;
+      height: 86px;
+      margin: 1px;
+      border: 2px solid white;
+    }
+  }
+  span {
+    font-size: 12px;
+    font-weight: $fw-600;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-cat {
+    margin-right: 0px;
+  }
+}
+//section-autoSlider
+.section-autoSlider {
+  height: 50px !important;
+  background-color: #ffea00;
+
+  .desc {
+    font-size: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .section-autoSlider {
+    height: 50px !important;
+    background-color: #ffea00;
+
+    .desc {
+      font-size: 4.4vw !important;
+    }
+  }
+}
+//Personal-Deals
+.personal-deals-container {
+  border-radius: 38px;
+
+  .deal-product {
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      transform: scale(1.1);
+    }
+    .add-product {
+    }
+  }
+  .dealHeading {
+    font-size: 16px;
+    font-weight: $fw-600;
+  }
+  .personal-product-head {
+    font-size: 100% !important;
+  }
+  .view-text {
+    font-size: 12px;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 576px) {
+  .personal-deals-container {
+    box-sizing: border-box;
+    border-radius: 0;
+    .personal-product-head {
+      // font-size: 5vw !important;
+    }
+  }
+}
+
+//banner
+.get-estimate-box {
+  border-radius: 32px;
+  border: 1px solid #f2f3f7;
+  background: linear-gradient(85deg, #e6eefd 3.69%, #fff 96.31%);
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.1);
+  h3 {
+    color: $color-2;
+    font-weight: $fw-500;
+    font-size: 28px;
+    line-height: 40px;
+    span {
+      color: $color-1;
+      font-weight: $fw-600;
+    }
+  }
+
+  .w-max-content {
+    width: max-content;
+  }
+}
+@media (max-width: 576px) {
+  .get-estimate-box {
+    border-radius: 0;
+  }
+}
+//How-It-Works
+.how-it-works {
+  background: linear-gradient(151deg, #faf3e9 49.09%, #eceefd 96.67%);
+  .how-it-works-container {
+    min-height: 703px !important;
+    padding: 64px 0px;
+
+    .hiw-heading-child {
+      font-size: 20px;
+      font-weight: $fw-400;
+      line-height: $Lh-150;
+      color: $color-4;
+    }
+
+    .hiw-content-heading {
+      color: #191919;
+      text-align: center;
+      font-size: 20px;
+      font-weight: $fw-600;
+      line-height: $Lh-150;
+      margin-bottom: 8px;
+    }
+
+    .hiw-content {
+      color: #676767;
+      font-size: 17px;
+      font-weight: $fw-400;
+      line-height: $Lh-150;
+    }
+
+    .hiw-video {
+      position: relative;
+      z-index: 2;
+    }
+    .hiw-grid {
+      position: absolute;
+      right: -10%;
+      bottom: -15%;
+    }
+  }
+}
+
+//Register-Banner
+.Register-banner {
+  min-height: 509px !important;
+  background: #002f6c;
+  padding-top: 69px;
+  padding-bottom: 58px;
+
+  .register-text {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 120%;
+    max-width: 631px;
+    padding-top: 64px;
+    margin-right: 149px;
+  }
+
+  .reg-button {
+    margin-top: 64px;
+  }
+  .cards {
+    z-index: 0 !important;
+    max-width: 405px;
+    height: auto;
+    width: fit-content !important;
+    .perk-card {
+      width: 181.683px;
+      max-height: 189px;
+
+      padding: 14px;
+      border-radius: 18.6px;
+
+      .perk-card-heading {
+        font-size: 2.2vw;
+        font-weight: $fw-600;
+        display: none !important;
+      }
+
+      .perk-card-mutedText {
+        color: $color-2;
+        font-size: 10.4px;
+        font-weight: $fw-400;
+        line-height: 0px;
+      }
+    }
+    .redgrid {
+      bottom: -28px;
+      z-index: -1;
+      left: -70px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .register-text {
+    font-size: 6.25vw !important;
+    margin: 0;
+  }
+}
+
+//Truested-Brands
+.brand-component-cotanier {
+  border-radius: 32px;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.06);
+  min-height: 492px !important;
+  .brand-container-heading {
+    span {
+      font-weight: 700;
+      font-size: 40px;
+    }
+  }
+  .selected-industrie {
+    background-color: black;
+    color: white;
+    border: none;
+  }
+  .individual-brand {
+    max-width: 148px;
+    max-height: 148px;
+    width: 148px;
+    height: 148px;
+    background-color: #f2f3f7;
+    // margin-right: 30px;
+    margin-top: 24px;
+    img {
+      background-color: inherit;
+    }
+  }
+}
+@media (max-width: 575px) {
+  .brand-component-cotanier {
+    border-radius: 0;
+  }
+}
+
+//Perks
+.perks-section {
+  padding: 64px 140px;
+  @media (max-width: '700px') {
+    padding: 0;
+  }
+  .perk-frag-image {
+    width: 101px;
+    height: 112px;
+    transform: scaleX(-1) !important;
+    top: -12%;
+    left: -5%;
+    opacity: 0.7;
+  }
+
+  min-height: 579px !important;
+  .perk-left-heading {
+    font-size: 34px;
+    font-weight: $fw-400;
+    span {
+      font-size: 40px;
+      font-weight: 700;
+    }
+  }
+
+  .perks-p {
+    max-width: 447px;
+    font-size: 18px;
+    font-weight: $fw-400;
+    line-height: 180%;
+  }
+
+  .perk-cards {
+    .perk-card {
+      max-width: 222px !important;
+      max-height: 235px !important;
+
+      box-shadow: 0px 0px 23.28406px 0px rgba(0, 0, 0, 0.06);
+
+      .perk-card-top {
+        max-height: 79px;
+        img {
+          max-width: 79px;
+          width: 10vw;
+          height: auto;
+        }
+      }
+      .perk-card-heading {
+        font-size: 16.765px;
+        font-weight: $fw-600;
+      }
+      .perk-card-muted-text {
+        color: $color-2;
+      }
+    }
+  }
+}
+
+//Community-tab
+.mystry-commnity-section {
+  .community-heading {
+    color: #191919;
+    font-size: 36px;
+    font-weight: $fw-400;
+    line-height: $Lh-150;
+    span {
+      font-weight: 700;
+    }
+    margin-bottom: 36px;
+  }
+  .community-card-row {
+    .community-frag-image {
+      width: 112px;
+      height: 175px;
+      bottom: 10%;
+      z-index: -1;
+    }
+    .community-card {
+      max-width: 210px;
+      .community-cardTop {
+        width: 100%;
+        max-height: 230px;
+        .communit-card-text {
+        }
+        img {
+          width: 100%;
+          height: auto;
+          object-fit: contain !important;
+        }
+      }
+      span {
+        font-size: 18px;
+        font-weight: $fw-500;
+        line-height: $Lh-150;
+      }
+    }
+  }
+}
+
+//App-Download
+.app-download-section {
+  height: 621px !important;
+  background-color: #f3f3f3;
+  img {
+    width: 245px;
+    height: 516px;
+  }
+  .download-buttons {
+    .download-button {
+      height: 84px;
+      width: 285px;
+      object-fit: contain;
+    }
+  }
+  .download-heading {
+    font-size: 40px;
+    font-weight: $fw-600;
+  }
+}
+
+//Testimonies
+.testimonie-section {
+  min-height: 601px;
+  background-color: $color-1;
+  z-index: 0;
+  .testimonie-frag {
+    z-index: -1;
+  }
+  .th {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 34px;
+    font-weight: $fw-400;
+
+    span {
+      color: #fff;
+      font-weight: 700;
+    }
+  }
+  .testimonie-card {
+    width: 282.835px;
+    height: 352px;
+
+    .testimonie-img {
+      width: 253.193px;
+      height: 137.095px;
+    }
+    .testimonie-profile {
+      .profile-image {
+        width: 30px;
+        height: 30px;
+      }
+      .test-profile-name {
+        font-size: 14.821px;
+        font-weight: $fw-600;
+      }
+      .test-profile-profession {
+        color: $color-2;
+        font-size: 11.116px;
+        font-weight: $fw-500;
+      }
+      // .testimonie-desc {
+      //   display: none;
+      //   color: #8e9295;
+      //   font-size: 13.586px;
+      //   font-weight: $fw-400;
+      //   line-height: $Lh-150;
+      // }
+    }
+  }
+}
+
+//Mistie-news
+.mystry-news-section {
+  .mystrie-news-container {
+    min-height: 521px !important;
+
+    .news-heading {
+      span {
+        font-size: 40px;
+        font-weight: 700;
+      }
+    }
+    .news-card {
+      width: 272px !important;
+      max-height: 287px !important;
+      box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.1);
+
+      .news-head-img {
+        width: inherit;
+        height: 102px !important;
+        background: #f3f3f3;
+        box-sizing: border-box;
+      }
+      .news-card-body {
+        .headline {
+          font-size: 18px;
+          font-weight: $fw-600;
+        }
+        .news-readMore {
+          color: $color-1;
+          font-size: 14px;
+          font-weight: $fw-600;
+        }
+      }
+    }
+  }
+}
+
+//Footer
+.footer-section {
+  min-height: 373px !important;
+  background: #f3f3f3;
+  font-size: 24px;
+  font-weight: $fw-500;
+  line-height: $Lh-150;
+  padding: 24px 60px;
+
+  .contactUs-container {
+    height: 152px !important;
+    background: #002f6c;
+    padding: 40px 60px;
+    top: 0 !important;
+  }
+  .footer-div {
+    min-height: 220px;
+    gap: 80px;
+    @media (max-width: 768px) {
+      gap: 30px;
+    }
+    width: 1280px !important;
+    .footer-main-logo {
+      height: inherit !important;
+      justify-content: space-between;
+      img {
+        width: 256px;
+        height: 54px;
+      }
+      span {
+        font-size: 11px;
+        font-weight: $fw-500;
+        line-height: 1;
+        height: fit-content;
+      }
+    }
+    .footer-pages {
+      font-size: 14px;
+      font-weight: $fw-500;
+    }
+    .footer-contact-heading {
+      font-size: 20px;
+      font-weight: $fw-600;
+    }
+    .contact-mediums {
+      .contact-medium {
+        font-size: 14px;
+        font-weight: $fw-500;
+      }
+    }
+  }
+}

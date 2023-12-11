@@ -1,0 +1,319 @@
+.company-profile {
+  .head {
+    .headCover {
+      img {
+        width: 100%;
+        max-height: 143px;
+        object-fit: cover;
+      }
+    }
+    .company-details {
+      background: #f8f8f8;
+      .details-section {
+        background-color: #fff;
+
+        .profile-top {
+          .company-profile {
+            width: 90px;
+            height: 90px;
+            top: -28px;
+            img {
+              width: inherit;
+              height: inherit;
+              border-radius: 16px;
+              box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+            }
+          }
+          .company-state {
+            .row1 {
+              .state-wrapper {
+                .state-name {
+                  color: rgba(114, 119, 122, 0.8);
+                  font-size: 10px;
+                  font-weight: 400;
+                }
+              }
+            }
+            .row2 {
+              button {
+                border-radius: 8px;
+                font-size: 10px;
+                font-weight: 600;
+                background: rgba(239, 51, 64, 0.15);
+              }
+            }
+          }
+        }
+        .company-name {
+          .person-profile {
+            img {
+              width: 16px;
+              height: 16px;
+            }
+            span {
+              color: $color-2;
+              font-size: 13px;
+              font-weight: 500;
+            }
+          }
+        }
+        .sub-details {
+          color: $color-2;
+          text-align: center;
+          font-size: 12px;
+          font-weight: 400;
+          div {
+            width: fit-content;
+          }
+          img {
+            width: 16px;
+            height: 16px;
+          }
+        }
+        ul {
+          color: $color-2;
+          margin-bottom: 0px;
+          li {
+            font-size: 13px;
+          }
+        }
+        p {
+          margin-bottom: 0px;
+          color: $color-2;
+          font-size: 13px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
+
+.project-component {
+  .project-row {
+    .project-col {
+      .project-card {
+        width: 148px;
+        height: 184px;
+        font-size: 11px;
+        position: relative;
+        color: #fff;
+        border-radius: 16px;
+        border: 1px solid rgba(0, 0, 0, 0.06);
+        background: #fff;
+        box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.06);
+        .content {
+          border-radius: 12px;
+          overflow: hidden;
+          .background-img {
+            width: 100%;
+            height: 100%;
+
+            img {
+              width: inherit;
+              height: inherit;
+              object-fit: contain;
+            }
+          }
+          .project-details {
+            bottom: 0;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 100%);
+
+            .projectCompletionStatus {
+              color: #138958;
+              font-size: 10px;
+              background: rgba(255, 255, 255, 0.7);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.ContactForm {
+  img {
+    width: 146px;
+    height: 98px;
+  }
+  span {
+    color: $color-2;
+    text-align: center;
+    font-size: 12px;
+  }
+  button {
+    background-color: $color-1;
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  // .contact-form-wrapper {
+  //   form {
+  //     input {
+  //       outline: none;
+  //       border: 0.2px solid rgba(128, 128, 128, 0.527);
+  //     }
+  //     textarea {
+  //       outline: none;
+  //       border: 0.2px solid rgba(128, 128, 128, 0.493);
+  //     }
+
+  //     span {
+  //       color: black;
+  //       font-size: 18px;
+  //     }
+  //     .contact-form-heading {
+  //     }
+  //     .formbutton {
+  //       display: none;
+  //       background-color: #16634f;
+  //     }
+  //   }
+  // }
+}
+
+.single-project-wrapper {
+  .cover-img {
+    width: 360px;
+    height: 150px;
+    border-radius: 0px 0px 16px 16px;
+    .backarrow {
+      top: 30px;
+      left: 10px;
+      img {
+        height: 30px;
+        width: auto;
+      }
+    }
+    img {
+      width: inherit;
+      height: inherit;
+      object-fit: cover;
+    }
+  }
+  .project-Details {
+    background: #f8f8f8;
+
+    .top-details {
+      img {
+        width: 16px;
+        height: 16px;
+      }
+    }
+    .projectInfo {
+      p {
+        color: $color-2;
+      }
+    }
+  }
+}
+
+.media-gallary-wrapper {
+ 
+  .previewMode {
+    .gallary-state {
+      color: $color-2;
+    }
+  }
+  .media-row {
+    .media-col {
+      .media-wrapper {
+        width: 100px;
+        height: 100px;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+        .video {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+  .fullGallary {
+    .back-arrow {
+      width: fit-content;
+      height: fit-content;
+      top: 50px;
+      left: 24px;
+      background-blend-mode: color-dodge;
+      z-index: 5;
+      img {
+        width: 11px;
+        height: auto;
+        object-fit: contain;
+      }
+    }
+    .content {
+      .video-wrapper {
+        .video {
+          width: 100%;
+          height: 100% !important;
+          // object-fit: contain;
+        }
+      }
+      height: 100vh !important;
+      max-height: 100vh;
+      font-size: 50px;
+    }
+    .fullmodeRow {
+      bottom: 60px;
+      // left: 50%;
+      background-color: rgba(0, 0, 0, 0.1);
+      &:hover {
+        .in-active {
+          &:hover {
+            opacity: 1 !important;
+          }
+        }
+      }
+
+      &:hover > :not(:hover) {
+        .in-active {
+          opacity: 0.2 !important;
+        }
+      }
+
+      .fullmodeCol {
+        .full-mode-media {
+          width: 64px;
+          height: 64px;
+          img {
+            width: inherit;
+            height: inherit;
+          }
+        }
+
+        .in-active {
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 768px) {
+  .company-profile {
+    .head {
+      .headCover {
+        background-color: rgba(0, 0, 0, 0.432);
+        img {
+          max-height: 250px;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+  .ContactForm {
+    button {
+      max-width: 50%;
+    }
+  }
+  .single-project-wrapper {
+    .cover-img {
+      height: 228px;
+    }
+  }
+}
